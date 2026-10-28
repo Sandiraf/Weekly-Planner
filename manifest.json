@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Rencana Mingguan",
+  "short_name": "Planner",
+  "description": "Planner mingguan sederhana yang bisa digunakan offline.",
+  "lang": "id-ID",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#f7f5ef",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
