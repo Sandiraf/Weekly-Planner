@@ -1,5 +1,5 @@
-const CACHE_NAME = 'rencana-mingguan-v2';
-const APP_FILES = ['./', './index.html', './manifest.json', './icon.svg'];
+const CACHE_NAME = 'rencana-mingguan-v3';
+const APP_FILES = ['./', './index.html', './manifest.json', './icon.svg', './supabase-config.js', './sync.js'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES)));
