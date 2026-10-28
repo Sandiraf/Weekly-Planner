@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rencana-mingguan-v3';
+const CACHE_NAME = 'rencana-mingguan-v4';
 const APP_FILES = ['./', './index.html', './manifest.json', './icon.svg', './supabase-config.js', './sync.js'];
 
 self.addEventListener('install', event => {
